@@ -2,11 +2,10 @@ import AddItemForm from "../components/AddItemForm";
 import ItemsList from "../components/ItemList";
 import MealPlanList from "../components/MealPlanList";
 import MealPlanner from "../components/MealPlanner";
-import Navbar from "../components/Navbar";
 import "../styles/dashboard.css";
 import { useState } from "react";
 export default function Dashboard() {
-  const [menuRefresh, setMenuRefresh] = useState(0);
+  const [, setMenuRefresh] = useState(0);
   return (
     <>
 
