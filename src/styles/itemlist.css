@@ -1,0 +1,90 @@
+.my-items-card {
+  background: white;
+  border-radius: 28px;
+  padding: 28px;
+  height: 100%;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.05);
+}
+
+.items-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.items-header h3 {
+  margin: 0;
+  font-weight: 700;
+}
+
+.items-header p {
+  margin: 0;
+  color: #888;
+  font-size: 14px;
+}
+
+.view-all-btn {
+  border: none;
+  background: #fff3e8;
+  color: #fc7303;
+  padding: 10px 18px;
+  border-radius: 14px;
+  font-weight: 600;
+}
+
+.items-container {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.food-card {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding: 14px;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.food-card:hover {
+  background: #fff7f1;
+}
+
+.food-card img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.food-info {
+  flex: 1;
+}
+
+.food-info h5 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.food-info span {
+  color: #777;
+  font-size: 14px;
+}
+
+.edit-btn {
+  border: none;
+  background: #fff3e8;
+  color: #fc7303;
+  width: 44px;
+  height: 44px;
+  border-radius: 14px;
+  transition: 0.3s;
+}
+
+.edit-btn:hover {
+  background: #fc7303;
+  color: white;
+}

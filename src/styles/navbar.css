@@ -1,0 +1,49 @@
+.text-orange {
+  color: #fc7303;
+}
+
+.nav-link {
+  color: #111;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  color: #fc7303;
+}
+
+.active-nav {
+  color: #fc7303 !important;
+  position: relative;
+}
+
+.active-nav::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+
+  width: 100%;
+  height: 3px;
+
+  background: #fc7303;
+  border-radius: 10px;
+}
+
+.get-started-btn {
+  background: #fc7303;
+  color: white;
+  border-radius: 30px;
+  padding: 10px 28px;
+  font-weight: 600;
+}
+
+.get-started-btn:hover {
+  background: #e86600;
+  color: white;
+}
+.logo-img {
+  height: 100px;
+  width: auto;
+  object-fit: contain;
+}

@@ -1,0 +1,77 @@
+.meal-plan-card {
+  background: white;
+  border-radius: 28px;
+  padding: 28px;
+  height: 100%;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.05);
+}
+
+.meal-plan-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.meal-plan-header h3 {
+  margin: 0;
+  font-weight: 700;
+}
+
+.meal-plan-header p {
+  margin: 0;
+  color: #888;
+}
+
+.plan-badge {
+  background: #fff3e8;
+  color: #fc7303;
+  padding: 10px 16px;
+  border-radius: 14px;
+  font-weight: 600;
+}
+
+.meal-list {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.meal-item {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+  padding: 18px;
+  border-radius: 20px;
+  background: #fafafa;
+}
+
+.meal-time {
+  min-width: 100px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 14px;
+  font-weight: 600;
+}
+
+.breakfast {
+  background: #fff5d9;
+}
+
+.lunch {
+  background: #dff7e6;
+}
+
+.dinner {
+  background: #ffe6e0;
+}
+
+.meal-details h5 {
+  margin: 0;
+  font-weight: 600;
+}
+
+.meal-details span {
+  color: #777;
+  font-size: 14px;
+}

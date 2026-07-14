@@ -1,0 +1,41 @@
+.add-item-card {
+  background: white;
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0,0,0,.05);
+}
+
+.card-header-orange {
+  background: linear-gradient(
+    135deg,
+    #fc7303,
+    #ff8d2f
+  );
+
+  padding: 25px 30px;
+}
+
+.card-header-orange h2 {
+  color: white;
+  margin: 0;
+  font-weight: 700;
+}
+
+.form-control,
+.form-select {
+  border-radius: 12px;
+  min-height: 50px;
+}
+
+.add-btn {
+  background: #fc7303;
+  color: white;
+  border-radius: 30px;
+  padding: 10px 30px;
+  font-weight: 600;
+}
+
+.add-btn:hover {
+  background: #e76600;
+  color: white;
+}
